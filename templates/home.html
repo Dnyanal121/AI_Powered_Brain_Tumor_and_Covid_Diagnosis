@@ -15,14 +15,14 @@
         margin-right: 1px
     }
 
-    .nav-item  :hover{
-        background-color: aquamarine;
-        color: black;
-        text-shadow: 0px 0px 4px black;
-        transition: 0.5s;
-        box-shadow: 0px 0px 4px aquamarine;
+    .navbar-nav .nav-item .nav-link:hover {
+    background-color: aquamarine;
+    color: black !important; /* Use !important to ensure the color is applied */
+    text-shadow: 0px 0px 4px black;
+    transition: 0.5s;
+    box-shadow: 0px 0px 4px aquamarine;
+}
 
-    }
 </style>
 
 <head>
@@ -145,11 +145,11 @@
 
 
 
-    <footer class='text-light bg-dark position-relative '>
+    <!-- <footer class='text-light bg-dark position-relative '>
         <p class='text-center py-1 my-0'>
             Made with ❤ by Dnyanal
         </p>
-    </footer>
+    </footer> -->
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
